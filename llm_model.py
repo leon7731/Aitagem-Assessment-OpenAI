@@ -36,6 +36,7 @@ class LLM_Model:
 
         # Define the prompt template
         self.prompt = ChatPromptTemplate.from_template("""
+        You're a student advisor. A student has submitted their report file, {student_report_document}, {score_grade} score grade file, and {subject_weight_values} subject weight values file. The student is interested in applying for a courses at the available university. The student is seeking advice on the course, admission criteria, scholarships, university ranking, and recommendations for students. You need to provide detailed and useful information based on the student report.
     
         The are the STPM Rules you need to follow before you answer the question:
         - STPM has 3 semesters, and each semester has 4 subjects and for the entire 3 semesters have 1 coursework for each subject.
@@ -70,7 +71,7 @@ class LLM_Model:
            - What is the reputation of the university and this specific course?
            
         5. Recommendations for Students:
-           - Based on the University information, {student_report_document} student report file, {score_grade} score grade file, and {subject_weight_values} subject weight values file information suggest what steps can a student take to improve their chances of admission? The explanation should be concise and descriptive with how you arrived at the recommendation with justification.
+           - Based on the University information, {student_report_document} student report file, {score_grade} score grade file, and {subject_weight_values} subject weight values file information suggest what steps can a student take to improve their chances of admission from {student_report_document} student report file, {score_grade} score grade file, and {subject_weight_values} subject weight values file information? The explanation how whats the 
            - Are there particular skills or experiences that the university values?
            - What are the common characteristics of successful applicants?
            
@@ -90,7 +91,7 @@ class LLM_Model:
     def query(self, input_text):
         response = self.retrieval_chain.invoke({
             "input": input_text,
-            "context": "Provide detailed and useful information based on the student report.",
+            "context": "Based on the student report file, score grade file, and subject weight values file, provide detailed and useful information on the course, admission criteria, scholarships, university ranking, and recommendations for students.",
             "student_report_document": self.student_report_document,
             "score_grade": self.score_grade,
             "subject_weight_values": self.subject_weight_values
