@@ -40,27 +40,42 @@ These assumptions form the basis for analyzing their academic performance, extra
 
 ### Solution
 
-<img align="center" src="https://drive.google.com/uc?export=view&id=1zth_rTmtzOK0ch7dJExEjjjsgZLJbSEb" width="60%" height="60%"/>
+<img align="center" src="https://drive.google.com/uc?export=view&id=1zth_rTmtzOK0ch7dJExEjjjsgZLJbSEb" width="80%" height="80%"/>
 
 1. **Using Streamlit Live App**: [Live APP](https://aitagem-assessment-openai.streamlit.app/)
     - Drag and drop the either "student_report_1.csv" or "student_report_2.csv" files to their respective upload sections. Note: Both CSV files are located in the Data Folder.
-      
+   
     - You can chat with your "Uni Enroll ChatBot" by asking questions like::
       ```
       What is my CGPA currently?
       ```
-     
+      <img align="center" src="https://drive.google.com/uc?export=view&id=1r1Y_94kaJn61dbz1Jd9YSH84b60FIK70" width="60%" height="60%"/>
+   <br><br>
+   <br><br>
 
-       ```
+    
+      ```
       I'm interested in pursuing an undergraduate degree in Chemical Engineering. Based on my current CGPA, which universities offer this program?
       ```
+     <img align="center" src="https://drive.google.com/uc?export=view&id=1_0-zJY8C-CPoixPhAyySjPYpTwzJz58d" width="60%" height="60%"/>
+   <br><br>
+   <br><br>
 
       ```
       Am I eligible for any scholarship?
       ```
+      <img align="center" src="https://drive.google.com/uc?export=view&id=1_p9ZHqouZX2PnfWgllc044E_oRFHRel1" width="60%" height="60%"/>
+   <br><br>
+   <br><br>
+      
+      ```
+      How much do I need to increase my academic marks to boost my CGPA for a scholarship?
+      ```
+      <img align="center" src="https://drive.google.com/uc?export=view&id=1QxnGxhdVaaUfe7GaUSSXavsk3s_gYncK" width="60%" height="60%"/>
+   <br><br>
+   <br><br>
 
-
-    - *Note*: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.
+    - **Note**: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.
 
 
 
