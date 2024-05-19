@@ -19,8 +19,12 @@ Build AI software and AI data science models that will help this group of people
 
 
 ### Assumptions
-
 In this scenario, there are two students undertaking Malaysia's most challenging examination, the STPM (Sijil Tinggi Persekolahan Malaysia). Both students are in their second semester and are enrolled in four subjects: Communications Technology, Chemistry, Biology, and General Studies.
+
+- **STPM (Sijil Tinggi Persekolahan Malaysia) Summary:**
+   - STPM has 3 semesters, and each semester has 4 subjects and for the entire 3 semesters have 1 coursework for each subject.
+   - [STPM Info](https://en.wikipedia.org/wiki/Malaysian_Higher_School_Certificate).
+   - [How to Calculate the Latest STPM Pointer (NGMP & PNGK)](https://www.infoupu.com/cara-kira-pointer-stpm-ngmp-pngk/)
 
 - **Student 1 (Alex) Attributes:**
   - Alex is a diligent student who consistently scores "A" and "B" grades.
@@ -36,4 +40,28 @@ These assumptions form the basis for analyzing their academic performance, extra
 
 ### Solution
 
-<img align="center" src="https://drive.google.com/uc?export=view&id=1aJEryTi_rQ_BYSxFPFqlPh5NMEfOxnkP" width="80%" height="80%"/>
+<img align="center" src="https://drive.google.com/uc?export=view&id=1zth_rTmtzOK0ch7dJExEjjjsgZLJbSEb" width="60%" height="60%"/>
+
+1. **Using Streamlit Live App**: [Live APP](https://aitagem-assessment-openai.streamlit.app/)
+    - Drag and drop the either "student_report_1.csv" or "student_report_2.csv" files to their respective upload sections. Note: Both CSV files are located in the Data Folder.
+      
+    - You can chat with your "Uni Enroll ChatBot" by asking questions like::
+      ```
+      What is my CGPA currently?
+      ```
+     
+
+       ```
+      I'm interested in pursuing an undergraduate degree in Chemical Engineering. Based on my current CGPA, which universities offer this program?
+      ```
+
+      ```
+      Am I eligible for any scholarship?
+      ```
+
+
+    - *Note*: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.
+
+
+
+
