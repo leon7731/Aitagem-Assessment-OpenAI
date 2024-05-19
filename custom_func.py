@@ -6,6 +6,14 @@ def preprocess_student_report(student_report_df,
                               subject_weight_file_path = "Data/subject_weight_values.csv"
                               ):
     
+    """_summary_: This function preprocesses the student report DataFrame by adding new columns 
+                  for grades, CGPA, and subject marks. It also calculates the overall CGPA without saving 
+                  the total subject mark.
+
+    Returns:
+        _type_: DataFrame
+    """
+    
     # Read the files
     student_report_df = student_report_df
     score_grade_df = pd.read_csv(score_grade_file_path)
