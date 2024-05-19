@@ -76,6 +76,10 @@ These assumptions form the basis for analyzing their academic performance, extra
    <br><br>
 
 
+2. All queries made to the 'Uni Enroll ChatBot' can be viewed in Langsmith for further business analysis.
+   <img align="center" src="https://drive.google.com/uc?export=view&id=1lkF9jlpRtKVKcEZmzzG76Sq0d6cIW6x0" width="70%" height="70%"/>
+     <br><br>
+   <img align="center" src="https://drive.google.com/uc?export=view&id=1T1WOSnqFZp_qkDOEX3zi4vASMv1lWuHP" width="70%" height="70%"/>
 
 ### Documentation
    - Comprehensive documentation for the project is available at the following [Google Drive Link](https://drive.google.com/drive/folders/1z7s7GjU8UJjkF7bIE-XCCdRJnxTGLWF-?usp=drive_link)  
