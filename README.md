@@ -70,7 +70,7 @@ These assumptions form the basis for analyzing their academic performance, extra
       <img align="center" src="https://drive.google.com/uc?export=view&id=1QxnGxhdVaaUfe7GaUSSXavsk3s_gYncK" width="60%" height="60%"/>
 
 
-    - *Note*: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.
+    - **Note**: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.
 
 
 
