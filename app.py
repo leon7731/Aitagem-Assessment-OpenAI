@@ -1,13 +1,14 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-
-import streamlit as st
 import pandas as pd
+import streamlit as st
 from io import StringIO
 
+import custom_func as cf
 from llm_model import LLM_Model
+
 from Config.Config import settings
 import os
 
@@ -31,28 +32,25 @@ if uploaded_file is not None:
     file_content = stringio.getvalue()  # Extracting string content from StringIO
     
     # Show DataFrame
-    dataframe = pd.read_csv(uploaded_file)
-    st.write(dataframe)
+    student_report_df = pd.read_csv(uploaded_file)
+    st.write(student_report_df)
+    
+    
+    # Load the score grade file
+    score_grade_df = pd.read_csv("Data/score_grade.csv")
+    
+    # Load the subject weight values file
+    subject_weight_values_df = pd.read_csv("Data/subject_weight_values.csv")
+    
+    # Preprocess the student report file
+    student_report_df = cf.preprocess_student_report(student_report_df)
     
     # Convert DataFrame to text format
     text_output = ""
-    for index, row in dataframe.iterrows():
-        for column in dataframe.columns:
+    for index, row in student_report_df.iterrows():
+        for column in student_report_df.columns:
             text_output += f"{column}: {row[column]}\n"
         text_output += "\n"  # Add a newline to separate rows
-    
-    # # Display the text output
-    # st.text(text_output)
-    
-    
-    
-    # Load the score grade data
-    score_grade_df = pd.read_csv("Data/score_grade.csv") 
-    
-    # Load the subject weight values
-    subject_weight_values_df = pd.read_csv("Data/subject_weight_values.csv")
-    
-    
     
     # Initialize LLM_Model with the student report file content
     llm_model = LLM_Model(student_report_file=text_output, 
