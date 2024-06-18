@@ -1,9 +1,5 @@
-<img src="https://media.licdn.com/dms/image/D560BAQFzn_dvib1yug/company-logo_200_200/0/1714308117130?e=1724284800&v=beta&t=71FcOMmKqTIDkUHjCnwcT8CN2BBTauMh2fvoD7lbci0" width="20%" align="top"/>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png" width="50%" align="top"/>
-
-
-# Aitagem Assessment
 
 ## 1. Student Personal Uni Enroll ChatBot  
 
@@ -12,7 +8,6 @@ While you are doing AI consulting, you observe a rapidly growing group of custom
 
 You decide to build AI software and AI data science models that will help this group of people to increase their chances of getting admitted into the universities that they want, including all the relevant variables, design, etc.
 
-Existing and potential customers of this group contact you. They told you that they expect to see a demo of your company’s AI software and AI data science models that will help predict and increase their chances of getting admitted into universities they want. (Including, for example, recommending to them what actions they should do to increase probabilities of getting admitted into the universities they want.)
 
 ### Problem/s to solve / Objective/s to achieve
 Build AI software and AI data science models that will help this group of people to increase their chances of getting admitted into the universities that they want. Including automated recommendations of what they should do to increase their chances of being admitted into universities.
