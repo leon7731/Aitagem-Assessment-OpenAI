@@ -22,7 +22,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["openai_api_key"]
 os.environ["LANGCHAIN_API_KEY"] = st.secrets["langchain_api_key"]
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
-st.title("Aitagem Assessment (OpenAI)")
+st.title("Uni Enroll ChatBot (OpenAI)")
 
 # Uploading files
 uploaded_file = st.file_uploader("Choose your Student Exam Result file", type="csv")
