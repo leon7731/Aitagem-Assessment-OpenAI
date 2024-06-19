@@ -35,8 +35,6 @@ These assumptions form the basis for analyzing their academic performance, extra
 
 ### Solution
 
-<img align="center" src="https://drive.google.com/uc?export=view&id=1zth_rTmtzOK0ch7dJExEjjjsgZLJbSEb" width="80%" height="80%"/>
-
 1. **Using Streamlit Live App**: [Live APP](https://aitagem-assessment-openai.streamlit.app/) (**Note**: Using Streamlit's free hosting, the app may pause occasionally. Contact me to reactivate if necessary.)
    
     - Drag and drop the either "student_report_1.csv" or "student_report_2.csv" files to their respective upload sections. Note: Both CSV files are located in the Data Folder.
